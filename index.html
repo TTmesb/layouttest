@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<script>
+    function myFunction() {
+      var x = document.getElementById("knapp");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+<body> 
+    <nav>
+       <ul>
+           <li>Bra</li>
+           <li>Bättre</li>
+           <li>Bäst</li>
+       </ul>
+    </nav>
+    
+    <main>
+        <h1>Cool Layout</h1>
+        <button onclick="myFunction()">Läs mer</button>
+            <div id="knapp">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil veniam iste amet doloremque libero enim. Quidem adipisci reprehenderit harum expedita animi odio, dolores laudantium non ea accusantium, quisquam ad!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil veniam iste amet doloremque libero enim. Quidem adipisci reprehenderit harum expedita animi odio, dolores laudantium non ea accusantium, quisquam ad!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil veniam iste amet doloremque libero enim. Quidem adipisci reprehenderit harum expedita animi odio, dolores laudantium non ea accusantium, quisquam ad!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil veniam iste amet doloremque libero enim. Quidem adipisci reprehenderit harum expedita animi odio, dolores laudantium non ea accusantium, quisquam ad!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil veniam iste amet doloremque libero enim. Quidem adipisci reprehenderit harum expedita animi odio, dolores laudantium non ea accusantium, quisquam ad!</p>
+        </div>
+        </main>       
+</body>
+</html>

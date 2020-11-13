@@ -40,15 +40,37 @@ li {
     list-style: none;
 }
 button {
-    font-family: 'Inconsolata', monospace;
-    font-size: 1.5rem;
     background-color: #727072;
     color: #E5D4ED;
-    border-radius: 0.8rem;
-    margin: 0 auto;
-    padding: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
 
 }
 button:focus {outline:0;}
 
+button:hover {
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.text {
+    padding: 2rem;
+    margin: 0 auto;
+    display: none;
+    background-image: url(smile.png);
+    background-size: cover;
+}
+a {
+    color: white;
+    text-decoration-line: none;
+}

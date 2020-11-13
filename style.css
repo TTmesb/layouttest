@@ -8,7 +8,12 @@ main {
 body {
     margin: 0;
     background-color: #727072;
-}   
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
 h1 {
     font-size: 12rem;
     text-align: center;
@@ -18,7 +23,7 @@ p {
     font-size: 2rem;
 }
 .mer {
-    text-align: center;
+    text-align: center; 
 }
 nav {
     color: #E5D4ED;
@@ -67,7 +72,7 @@ h2 {
     padding: 2rem;
     margin: 0 auto;
     display: none;
-
+    
 }
 a {
     color: white;

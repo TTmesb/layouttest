@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: 9.5rem;
     text-align: center;
     margin: 0;
 }
@@ -29,7 +29,6 @@ nav {
     color: #E5D4ED;
     background-color: #131515;
     font-family: 'Inconsolata', monospace;
-    display: flex;
     padding: .5rem;
     font-size: 1.5rem;
 }
@@ -51,13 +50,13 @@ button {
     margin-left: auto;
     margin-right: auto;
     border: none;
-
+    transition: 0.3s;
 }
 button:focus {outline:0;}
 
 button:hover {
-    color: black;
-    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -77,4 +76,20 @@ h2 {
 a {
     color: white;
     text-decoration-line: none;
+}
+a:hover {
+    color: red;
+}
+.burger {
+    transition: 0.8s;
+    width: 2rem;
+    height: auto;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+.burger:hover{
+    transform: scale(2);
+    bottom: 32px;
+    right: 32px;
 }
